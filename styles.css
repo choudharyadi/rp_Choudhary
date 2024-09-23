@@ -1,24 +1,33 @@
 /* ----------------- Class CSS ----------------- */
 
+/* --black: #000000ff;
+--oxford-blue: #14213dff;
+--orange-web: #fca311ff;
+--platinum: #e5e5e5ff;
+--white: #ffffffff; */
+h1, h2, h3, p {
+color:#FFFFFF
+}
+
 .about{
     width:400px;
     margin: auto;
 }
 
 .about-team{
-    color:rgb(82, 81, 81)
+    color:#FFFFFF
 }
 
 .authors{
-    background-color: #dbe3e7;
+    background-color: #14213d;
 }
 
 .body{
-    background-color: rgb(90, 92, 92);
+    background-color: #000000ff;
 }
 
 .footer{
-    background-color: #023E8A;
+    background-color: #14213d;
 }
 
 .icon-white{            /* Arrow icon at bottom of page */
@@ -26,17 +35,18 @@
 }
 
 .nb-background-color{   /* navbar background color */
-    background-color: #023E8A;
+    background-color: #14213d;
 }
 
 .nbMenuItem{               /* navbar link text properties */
+    color: #14213d;
     font-size:25px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .overview{
-    background-color: #dbe3e7;
+    background-color: #14213d;
 }
 
 .ovPadLeft{
@@ -48,12 +58,12 @@
 }
 
 .procedure{
-    background-color: #dbe3e7;
+    background-color: #14213d;
     padding: 1px;
 }
 
 .showcase{
-    background-color: #8fa3ab; /*#0096c7*/
+    background-color: #000000ff; /*#0096c7*/
 }
 
 /* ----------------- ID CSS ----------------- */
