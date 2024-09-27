@@ -1,12 +1,7 @@
-/* ----------------- Class CSS ----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-/* --black: #000000ff;
---oxford-blue: #14213dff;
---orange-web: #fca311ff;
---platinum: #e5e5e5ff;
---white: #ffffffff; */
-h1, h2, h3, p {
-color:#FFFFFF
+* {
+    font-family: "Outfit";
 }
 
 .about{
@@ -15,19 +10,29 @@ color:#FFFFFF
 }
 
 .about-team{
-    color:#FFFFFF
+    color:black
+}
+.section-list {
+    padding-left: 10px; 
+    margin-left: 0;  
+    list-style-position: outside; 
+    font-size: 1.1rem;
+}
+
+.font-color {
+    color: black
 }
 
 .authors{
-    background-color: #14213d;
+    background-color: #ffffff;
 }
 
 .body{
-    background-color: #000000ff;
+    background-color: #4b2e4f;
 }
 
 .footer{
-    background-color: #14213d;
+    background-color: #430d4b;
 }
 
 .icon-white{            /* Arrow icon at bottom of page */
@@ -35,37 +40,50 @@ color:#FFFFFF
 }
 
 .nb-background-color{   /* navbar background color */
-    background-color: #14213d;
+    background-color: #430d4b;
 }
 
 .nbMenuItem{               /* navbar link text properties */
-    color: #14213d;
     font-size:25px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .overview{
-    background-color: #14213d;
+    background-color: #ffffff;
 }
 
-.ovPadLeft{
+/* .ovPadLeft{
     padding-left: 20px;
 }
 
 .ovPadRight{  
     padding-right: 20px;
-}
+} */
 
 .procedure{
-    background-color: #14213d;
+    background-color: #ffffff;
     padding: 1px;
 }
 
 .showcase{
-    background-color: #000000ff; /*#0096c7*/
+    background-color: #ECBFFF; /*#0096c7*/
 }
 
+.icon{
+    height: 100px;
+    /* width: 100px; */
+}
+
+.image-procedure{
+    height: auto;
+    width: 150px;
+}
+
+.image-size{
+    height: 400px;
+    width: auto;
+}
 /* ----------------- ID CSS ----------------- */
 
 /* -----------------Underline Animation CSS -----------------*/
