@@ -12,6 +12,14 @@
 .about-team{
     color:black
 }
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #ffcc00; /* Change link color on hover */
+}
+
 .section-list {
     padding-left: 10px; 
     margin-left: 0;  
@@ -31,15 +39,37 @@
     background-color: #4b2e4f;
 }
 
-.footer{
+.footer {
     background-color: #430d4b;
+    /* transition: background-color 1s ease-in-out; */
+}
+.image-size{
+    height: auto;
+    width: 150px;
 }
 
+.image-procedure {
+    opacity: 0;
+    transition: opacity 1s linear;
+}
+
+
+.text-procedure {
+    opacity: 0;
+    transition: opacity 1.5s linear;
+}
+.text-procedure-loaded {
+    opacity: 1;
+}
+
+.image-procedure-loaded {
+    opacity: 1;
+}
 .icon-white{            /* Arrow icon at bottom of page */
     color: #FFFFFF;
 }
 
-.nb-background-color{   /* navbar background color */
+.nb-background-color {
     background-color: #430d4b;
 }
 
@@ -53,13 +83,41 @@
     background-color: #ffffff;
 }
 
-/* .ovPadLeft{
-    padding-left: 20px;
+
+/* Fade-in with Up-Down transition */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px); /* Start slightly below */
+    animation: fadeInUpAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
-.ovPadRight{  
-    padding-right: 20px;
-} */
+@keyframes fadeInUpAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Start 20px down */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Move to original position */
+    }
+}
+a {
+    color: white; /* Change link color to white */
+    text-decoration: none; /* Remove the underline */
+}
+
+a:hover {
+    color: #ffcc00; /* Optional: Change link color on hover (example: light yellow) */
+}
+
+a:focus, a:active {
+    outline: none; /* Remove the blue outline when the link is focused */
+    box-shadow: none; /* Remove focus/active shadow */
+}
+
+
 
 .procedure{
     background-color: #ffffff;

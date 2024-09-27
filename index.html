@@ -24,7 +24,7 @@
         <!--Nav-->
         <nav class="navbar navbar-expand-lg navbar-dark nb-background-color">
             <a href="index.html" class="navbar-brand">
-                <img src="img/emotionwhite.png" alt="Emotion Logo" class="d-inline-block align-text-top w-5 icon">
+                <img src="img/emotion.png" alt="Emotion Logo" class="d-inline-block align-text-top w-5 icon">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
@@ -41,7 +41,7 @@
                     </li>
                     <li class="nav-item">
 
-                        <a href="results.html" class="nav-link hover-underline-animation nbMenuItem">Results</a>
+                        <a  class="nav-link hover-underline-animation nbMenuItem">Results</a>
                     </li>
                 </ul>
             </div>
@@ -53,9 +53,9 @@
                 <div class="row">
                     <div class="col-sm p-0 d-flex align-items-center">
                         <div class="container">
-                            <h1 class="display-4 font-color"> Enhancing Emotion Recognition Accuracy with a Body
+                            <h1 class="display-4 font-color fade-in"> Enhancing Emotion Recognition Accuracy with a Body
                                 Pose-Aware Neural Network</h1>
-                            <h1 class="font-color"> by Aditya Choudhary</h1>
+                            <h1 class="font-color fade-in"> by Aditya Choudhary</h1>
 
                         </div>
                     </div>
@@ -66,51 +66,68 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 p3">
-                        <img class="image-size" src="img/adi_images/model_research.png" alt="Water Temperature Graph">
+                        <img class="image-procedure image-size" src="img/adi_images/model_research.png"
+                            alt="Water Temperature Graph">
                     </div>
                     <div class="col-sm-8 p3">
-                        <h1> Background</h1>
-                        <p class="lead overview-font">Researchers have been trying to make an better emotion recognition
-                            model for some time now. </p>
-                        <ul class="section-list">
-                            <li>One paper worked using a CNN with specific parts of the face to get more accurate
-                                results, this lead to decent improvement.</li>
-                            <li>Another paper worked just using a CNN with the face to see if it could accurate get the
-                                emotion</li>
-                            <li>One paper worked using a ensemble neural network with various CNNS that would focus on
-                                different aspects of the image</li>
+                        <h1 class="text-procedure"> Background</h1>
+                        <div class="text-procedure">
+                            <p class="lead overview-font">Researchers have been trying to make an better emotion
+                                recognition
+                                model for some time now. </p>
                             <ul class="section-list">
-                                <li>
-                                    Face
-                                </li>
-                                <li>
-                                    Entire body
-                                </li>
-                                <li>
-                                    Context (image without person in it)
-                                </li>
-                                <li>
-                                    Entire image
-                                </li>
+                                <li>One paper worked using a CNN with specific parts of the face to get more accurate
+                                    results, this lead to decent improvement.</li>
+                                <li>Another paper worked just using a CNN with the face to see if it could accurate get
+                                    the
+                                    emotion</li>
+                                <li>One paper worked using a ensemble neural network with various CNNS that would focus
+                                    on
+                                    different aspects of the image</li>
+                                <ul class="section-list">
+                                    <li>
+                                        Face
+                                    </li>
+                                    <li>
+                                        Entire body
+                                    </li>
+                                    <li>
+                                        Context (image without person in it)
+                                    </li>
+                                    <li>
+                                        Entire image
+                                    </li>
+                                </ul>
                             </ul>
-                        </ul>
+                        </div>
+
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-sm-8 p3">
-                        <h1> Rationale</h1>
-                        <p class="lead overview-font ">
-                            Having better emotion recognition will allow many different fields gain an advantage
-                        </p>
-                        <ul class="section-list">
-                            <li>Security: This can be used to analyze peoplle in a crowd to analyze for any aggression and threats </li>
-                            <li>Medicine: This field could use better emotion recognition to anazlye patient quicker or 24/7 allowing for continuous and fast results</li>
-                            <li>Gaming: This field edit the game play to make more desired effect in the user example: a horror game could put a jump scare when the user is most relaxed </li>
-                        </ul>
+                        <h1 class="text-procedure"> Rationale</h1>
+                        <div>
+                            <p class="lead overview-font">
+                                Having better emotion recognition will allow many different fields gain an advantage
+                            </p>
+                            <ul class="section-list">
+                                <li>Security: This can be used to analyze peoplle in a crowd to analyze for any
+                                    aggression
+                                    and threats </li>
+                                <li>Medicine: This field could use better emotion recognition to anazlye patient quicker
+                                    or
+                                    24/7 allowing for continuous and fast results</li>
+                                <li>Gaming: This field edit the game play to make more desired effect in the user
+                                    example: a
+                                    horror game could put a jump scare when the user is most relaxed </li>
+                            </ul>
+                        </div>
+
                     </div>
                     <div class="col-sm-4 p3">
-                        <img style="height: 300px; width: auto" src="img/adi_images/security.png" alt="Water Temperature Graph">
+                        <img style="height: 300px; width: auto" class="image-procedure"
+                            src="img/adi_images/security.png" alt="Water Temperature Graph">
                     </div>
                 </div>
                 <!-- <div class="row">
@@ -146,14 +163,47 @@
         <footer class="p-5 footer text-light text-center position-relative">
             <div class="container">
                 <p class="lead">
-                    Copyright &copy; SE 2024 Bootstrap Demo
+                    Copyright &copy; Aditya Choudhary
+
+                    
                     <a href="#" class="position-absolute bottom-0 end-0 p-5">
                         <i class="bi bi-arrow-up-circle h2"></i>
                     </a>
                 </p>
+                <p>
+                    Images used
+                    <div>
+                        <a style="margin: 10px;"href="https://www.gothamgazette.com/city/9608-nypd-facial-recognition-policy-leeway-department-not-using-black-lives-matter-protests" target="_blank">
+                            Security Room photo
+                        </a>
+                        <a style="margin: 10px;"href="https://ieeexplore.ieee.org/abstract/document/10337732" target="_blank">
+                            Face model architecture photo
+                        </a>
+                        <a style="margin: 10px;"href="https://ranger.uta.edu/~huang/papers/CVPR12.pdf" target="_blank">
+                            Face specifics model picture
+                        </a>
+                        <a style="margin: 10px;"href="https://arxiv.org/abs/2003.13401" target="_blank">
+                            Emsemble Model architecture photo
+                        </a>
+                    </div>
+                    
+                </p>
             </div>
         </footer>
     </div>
+
+    <script>
+        window.addEventListener("load", function () {
+            document.querySelectorAll('.image-procedure').forEach(function (image) {
+                image.classList.add('image-procedure-loaded');
+            });
+            document.querySelectorAll('.text-procedure').forEach(function (image) {
+                image.classList.add('text-procedure-loaded');
+            });
+        });
+        
+
+    </script>
 </body>
 
 </html>
