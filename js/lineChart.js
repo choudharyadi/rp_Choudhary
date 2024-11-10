@@ -1,6 +1,6 @@
 async function getData() {
 
-    const response = await fetch("../data.csv"); // move up two folders
+    const response = await fetch("./data.csv"); // move up two folders
     const data = await response.text();
    
     const trials = []; // x-axis labels
